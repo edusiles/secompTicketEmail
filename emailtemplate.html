@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR Code de acesso</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="font-family: 'Montserrat', Arial, sans-serif">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="center" style="padding: 20px">
+          <table
+            class="content"
+            width="600"
+            border="0"
+            cellspacing="0"
+            cellpadding="0"
+            style="border-collapse: collapse; border: 1px solid #cccccc"
+          >
+            <!-- Header -->
+            <tr>
+              <td
+                class="header"
+                style="
+                  background-color: #345d8f;
+                  padding: 24px;
+                  text-align: center;
+                  color: white;
+                  font-size: 24px;
+                "
+              >
+                <p>Ingresso SECOMP 2024</p>
+              </td>
+            </tr>
+
+            <!-- Content -->
+            <tr>
+              <td
+                class="body"
+                style="
+                  padding: 8px 40px 40px;
+                  text-align: left;
+                  font-size: 16px;
+                  line-height: 1.6;
+                "
+              >
+                <div style="width: 100%; text-align: center">
+                  <img
+                    src="./img/logo-secomp.png"
+                    alt="Logotipo da semana da computação circular com as letras SC em branco sobre um fundo azul escuro, cercado por segmentos amarelos e azuis no contorno"
+                    style="max-height: 8rem"
+                  />
+                </div>
+                <h1 style="margin-top: 0px">Olá, ${studentName}!</h1>
+
+                <p>Seja bem-vindo à Semana da Computação!</p>
+                <p>
+                  Neste evento você terá várias experiências no universo da
+                  computação, contando com o seguinte cronograma:
+
+                  <!-- Adicionar Cronograma -->
+                </p>
+
+                <p>Aqui está o seu QRcode para acessar todo esse conteúdo</p>
+                <img src="${qrCodeImage}" alt="QR Code de acesso" />
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding: 0px 40px 0px 40px; text-align: center">
+                <!-- Button -->
+                <table cellspacing="0" cellpadding="0" style="margin: auto">
+                  <tr>
+                    <td
+                      align="center"
+                      style="
+                        background-color: #d7a91d;
+                        padding: 10px 20px;
+                        border-radius: 5px;
+                      "
+                    >
+                      <a
+                        href="https://secomp.unifei.edu.br/"
+                        target="_blank"
+                        style="
+                          color: #ffffff;
+                          text-decoration: none;
+                          font-weight: bold;
+                        "
+                        >Acessar o site da SECOMP</a
+                      >
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td
+                class="body"
+                style="
+                  padding: 40px;
+                  text-align: left;
+                  font-size: 16px;
+                  line-height: 1.6;
+                "
+              >
+                Esse QRCode será utilizado para acesso e registro da sua
+                presença no evento.
+              </td>
+            </tr>
+
+            <!-- Footer -->
+            <tr>
+              <td
+                class="footer"
+                style="
+                  background-color: #2d3e50;
+                  padding: 24px;
+                  text-align: center;
+                  color: white;
+                  font-size: 14px;
+                "
+              >
+                <p>Powered by</p>
+                <img
+                  src="./img/logo-byron.png"
+                  alt="logotipo byron.solutions"
+                  style="max-width: 12rem"
+                />
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
