@@ -44,14 +44,21 @@
               <td
                 class="header"
                 style="
-                  background-color: #345d8f;
-                  padding: 24px;
+                  background-color: #2d3e50;
                   text-align: center;
                   color: white;
                   font-size: 24px;
                 "
               >
-                <p>Ingresso SECOMP 2024</p>
+                <div style="width: 100%; text-align: center">
+                  <a href="https://secomp.unifei.edu.br/" target="_blank">
+                    <img
+                      src="./img/logo-secomp.png"
+                      alt="Logotipo da semana da computação circular com as letras SC em branco sobre um fundo azul escuro, cercado por segmentos amarelos e azuis no contorno"
+                      style="max-height: 8rem"
+                    />
+                  </a>
+                </div>
               </td>
             </tr>
 
@@ -66,16 +73,10 @@
                   line-height: 1.6;
                 "
               >
-                <div style="width: 100%; text-align: center">
-                  <a href="https://secomp.unifei.edu.br/" target="_blank">
-                    <img
-                      src="./img/logo-secomp.png"
-                      alt="Logotipo da semana da computação circular com as letras SC em branco sobre um fundo azul escuro, cercado por segmentos amarelos e azuis no contorno"
-                      style="max-height: 8rem"
-                    />
-                  </a>
-                </div>
-                <h1 style="margin-top: 0px">Olá, ${studentName}</h1>
+                <h1 style="text-align: center; color: #345d8f">
+                  Acesso à SECOMP 2024
+                </h1>
+                <h2>Olá, ${studentName}</h2>
 
                 <p>Seja bem-vindo à Semana da Computação!</p>
                 <p>
@@ -85,9 +86,7 @@
                   <!-- Adicionar Cronograma -->
                 </p>
 
-                <p>
-                  <b>Aqui está o seu QRCode para acessar todo esse conteúdo!</b>
-                </p>
+                <p>Aqui está o seu QRCode para acessar todo esse conteúdo!</p>
                 <img src="${qrCodeImage}" alt="QR Code de acesso" />
               </td>
             </tr>
@@ -125,13 +124,15 @@
                 class="body"
                 style="
                   padding: 40px;
-                  text-align: left;
+                  text-align: center;
                   font-size: 16px;
                   line-height: 1.6;
                 "
               >
-                Esse QRCode será utilizado para acesso e registro da sua
-                presença no evento.
+                <b>
+                  Esse QRCode será utilizado para acesso e registro da sua
+                  presença no evento.
+                </b>
               </td>
             </tr>
             <tr>
@@ -161,7 +162,7 @@
               <td
                 class="footer"
                 style="
-                  background-color: #2d3e50;
+                  background-color: #345d8f;
                   padding: 24px;
                   text-align: center;
                   color: white;
